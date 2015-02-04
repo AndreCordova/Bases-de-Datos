@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}	
+header, div, section, aside, nav, footer{
+	display: block;
+}
+header{
+	background-image: url(../images/franja_colores.png);
+	color: #000;
+	font-family: arial;
+	margin: 0 auto;
+	padding: 0.8em 0;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	vertical-align: top;
+}
+li#cl a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0.2em;
+	padding: 0.5em 0.5em;
+	font-family: arial;
+	background: #B43104;
+	color: #fff;		
+	border-radius: 0.4em;
+}
+nav a:hover{
+	text-shadow:5px 5px 10px rgba(0,0,0,1);	
+	font-weight: bold;
+}
+.contenedor_principal{
+	background: #211646;
+}
+.contenedor{
+	width: 600px;
+	height: 420px;
+	padding: 20px;
+	border: solid 1px #999;
+	margin: 30px 350px;
+	background-color: #f1f1f1;
+}
+#slider{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	background-color: #000;
+	margin: 0 auto;
+}
+#slider > div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#wrapper{
+    width: 700px;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+	padding-top: 5px;
+}
+section#mini_contenedor{
+	border-top: 3px solid #fff;
+	width: 90%;
+	padding: 2em;
+	margin: auto;
+	background: #211646;
+	color: #fff;
+	text-align: center;
+}
+section#mini_contenedor a{
+	display: inline-block;
+	color: #fff;
+}
+section#mini_contenedor h2{
+	text-align: left;
+}
+.img1{
+	background-image:url(../images/Img5.jpg);
+	height: 180px;
+	width: 30%;
+	float: left;
+}
+.img2{
+	background-image:url(../images/Img6.jpg);
+	height: 180px;
+	width: 30%;
+	margin: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.img3{
+	background-image:url(../images/Img4.jpg);
+	height: 180px;
+	width: 30%;
+	margin: 2px;
+	float: right;
+}
+footer div{
+	display: inline-block;
+	padding: 15px 0;
+}
+footer#pinferior{
+	text-align: center;
+	background: #0e0926;
+	width: 100%;
+	border-top: 3px solid #fff;
+	padding-bottom: 8px;
+	color: #fff;
+	overflow: hidden;
+}
+.infor{
+	margin-left: 2em;
+	float: left;
+}
+.derechos{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.logos{
+	float: right;
+	margin-right: 2em;
+}
+.logos img{
+	width: 100px;
+	margin: 0 5px;
+}
